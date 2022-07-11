@@ -1,1 +1,11 @@
+body {
+  font-family: Helvetica
+}
 
+#feed-block {
+  width: 55%;
+  height: 80%;
+  background-color: red;
+  margin-left: 20px;
+  margin-top: 20px;
+}

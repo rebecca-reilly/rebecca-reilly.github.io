@@ -1,57 +1,87 @@
 body {
-  font-family: Georgia;
-  background-color: #FEF9EF;
+  font-family: Didot;
+  background-color: #264653;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#site-title {
-  position: absolute;
-  left: 100px;
-  margin-top: 20px;
-  font-size: 40px;
-  color: #FE6D73;
-}
-
-#navbar {
-  position: absolute;
-  right: 100px;
+.navbar {
+  background-color: #E76F51;
+  position: fixed;
+  width: 100vw;
   display: flex;
   flex-direction: row;
-  color: #227C9D;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  font-size: 40px;
+  color: white;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.a-block {
+  margin: auto 50px;
+  flex-direction: row;
+}
+
+.navbar a {
+  color: white;
   font-size: 22px;
   text-decoration: none;
+  margin: 50px;
 }
 
-#navbar a {
-  margin-left: 50px;
-  margin-top: 30px;
+main {
+  padding: 80px 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  gap: 50px;
 }
 
-#feed-block {
-  width: 55%;
-  float: left;
-  height: 70vh;
-  background-color: #17C3B2;
-  margin-top: 100px;
-  margin-left: 95px;
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-  overflow: scroll;
+main h1 {
+  font-size: 40px;
+  color: white;
+  border: 3px solid white;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
-.card {
-  background-color: #FEF9EF;
-  height: 300px;
-  width: 99%;
-  border: 3px solid #227C9D;
-  margin: 0 auto 25px auto;
+.recent-posts {
+  border: 3px solid white;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: grid;
 }
 
-#archive-block {
-  float: right;
-  width: 20%;
-  height: 70vh;
-  background-color: #17C3B2;
-  margin-top: 100px;
-  margin-right: 95px;
+.posts-by-date {
+  border: 3px solid white;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.older-posts {
+  border: 3px solid white;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.posts-by-tags {
+  border: 3px solid white;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }

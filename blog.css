@@ -1,3 +1,5 @@
+/* Defaults for body and navigation bar */
+
 body {
   font-family: Didot;
   background-color: #264653;
@@ -35,18 +37,30 @@ body {
   margin: 50px;
 }
 
+/* end body + navbar defaults*/
+
 main {
   padding: 80px 100px;
+  /*
+  These parameters are for blog.html, removed for blog-ph.html.
+
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto auto;
-  gap: 50px;
+  gap: 50px; */
 }
 
 main h1 {
   font-size: 40px;
   color: white;
-  border: 3px solid white;
+}
+
+main p {
+  font-size: 16px;
+  color: white;
+}
+
+.blog-title {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;

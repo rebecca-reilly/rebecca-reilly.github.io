@@ -53,12 +53,12 @@ body {
 }
 
 
-@media only screen and (max-width: 936px) {
+@media only screen and (max-width: 610px) {
   .a-block-expanded {
     display: none;
   }
   .a-block-collapsed {
-    display: visible;
+    display: flex;
   }
 }
 

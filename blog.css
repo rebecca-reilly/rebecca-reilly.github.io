@@ -12,35 +12,62 @@ body {
   background-color: #E76F51;
   position: fixed;
   width: 100vw;
+  height: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .navbar h1 {
-  font-size: 40px;
+  font-size: 30px;
   color: white;
-  margin-left: 100px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-top: 8px;
+  margin-bottom: 10px;
 }
 
-.a-block {
-  margin: auto 50px;
+.nav-block-expanded {
+  height: 100%;
+  margin: auto 50px auto 0px;
+  display: flex;
   flex-direction: row;
+  align-items: flex-end;
 }
 
-.navbar a {
+.nav-button {
+  padding: 13px;
+}
+
+.nav-button a {
   color: white;
   font-size: 22px;
   text-decoration: none;
-  margin: 50px;
+}
+
+.nav-button:hover {
+  background-color: #2A9D8F;
+}
+
+.nav-block-collapsed {
+  display: none;
+}
+
+
+@media only screen and (max-width: 936px) {
+  .a-block-expanded {
+    display: none;
+  }
+  .a-block-collapsed {
+    display: visible;
+  }
 }
 
 /* end body + navbar defaults*/
 
 main {
-  padding: 80px 100px;
+  padding-top: 80px;
+  padding-left: 50px;
+  border: 3px solid white;
   /*
   These parameters are for blog.html, removed for blog-ph.html.
 

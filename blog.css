@@ -20,45 +20,78 @@ body {
 
 .navbar h1 {
   font-size: 30px;
+  width: 200px;
   color: white;
   margin-left: 50px;
   margin-top: 8px;
   margin-bottom: 10px;
+  position: absolute;
 }
 
 .nav-block-expanded {
-  height: 100%;
-  margin: auto 50px auto 0px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
+  right: 0;
+  margin-right: 25px;
+  margin-top: -4.5px;
+  overflow: hidden;
+  position: absolute;
 }
 
-.nav-button {
-  padding: 10px;
-}
-
-.nav-button a {
+.navbar li {
   color: white;
   font-size: 22px;
   text-decoration: none;
+  list-style: none;
+  text-align: center;
+  display: inline;
+  background-color: #E76F51;
+  padding: 14px 30px;
+  width: 100%;
 }
 
-.nav-button:hover {
+.navbar li:hover {
   background-color: #2A9D8F;
 }
 
 .nav-block-collapsed {
   display: none;
+  position: absolute;
+  right: 0px;
+  width: 100%;
 }
 
+.nav-block-collapsed ul {
+  display: none;
+  align-items: center;
+  margin: auto;
+  margin-left: -30px;
+  width: 100%;
+}
 
-@media only screen and (max-width: 610px) {
-  .a-block-expanded {
+.navbar img {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.nav-block-collapsed:hover .dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 706px) {
+  .nav-block-expanded {
     display: none;
   }
-  .a-block-collapsed {
+  .nav-block-collapsed {
     display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .dropdown {
   }
 }
 

@@ -37,15 +37,18 @@ body {
 }
 
 .navbar li {
-  color: white;
   font-size: 22px;
-  text-decoration: none;
   list-style: none;
   text-align: center;
   display: inline;
   background-color: #E76F51;
   padding: 14px 30px;
   width: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
 }
 
 .navbar li:hover {

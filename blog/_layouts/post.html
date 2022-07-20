@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% if page.title%}
+    	<title>{{page.title}}</title>
+    {% else %}
+    	<title>Untitled post</title>
+    {% endif %}
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <!--Defaults for navbar-->
+    <nav class="navbar">
+      <h1>Rebecca Reilly</h1>
+      <div class="nav-block-expanded">
+        <ul>
+          {% for item in site.data.navigation %}
+          <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="nav-block-collapsed">
+        <img src="../assets/images/menu.png" alt="Menu Icon">
+        <ul class="dropdown">
+          {% for item in site.data.navigation %}
+          <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
+    <!--end defaults for navbar-->
+
+
+    {{ page.date | date: "%b %d, %Y" }}
+    {{ content }}
+  </body>
+</html>

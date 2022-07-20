@@ -1,0 +1,164 @@
+/* Defaults for body and navigation bar */
+
+body {
+  font-family: Didot;
+  background-color: #264653;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #E76F51;
+  position: fixed;
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  font-size: 30px;
+  width: 200px;
+  color: white;
+  margin-left: 50px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  position: absolute;
+}
+
+.nav-block-expanded {
+  right: 0;
+  margin-right: 25px;
+  margin-top: -4.5px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.navbar li {
+  font-size: 22px;
+  list-style: none;
+  text-align: center;
+  display: inline;
+  background-color: #E76F51;
+  padding: 14px 30px;
+  width: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar li:hover {
+  background-color: #2A9D8F;
+}
+
+.nav-block-collapsed {
+  display: none;
+  position: absolute;
+  right: 0px;
+  width: 100%;
+}
+
+.nav-block-collapsed ul {
+  display: none;
+  align-items: center;
+  margin: auto;
+  margin-left: -30px;
+  width: 100%;
+}
+
+.navbar img {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.nav-block-collapsed:hover .dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 706px) {
+  .nav-block-expanded {
+    display: none;
+  }
+  .nav-block-collapsed {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .dropdown {
+  }
+}
+
+/* end body + navbar defaults*/
+
+main {
+  padding-top: 80px;
+  padding-left: 50px;
+  border: 3px solid white;
+  /*
+  These parameters are for blog.html, removed for blog-ph.html.
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  gap: 50px; */
+}
+
+main h1 {
+  font-size: 40px;
+  color: white;
+}
+
+main p {
+  font-size: 16px;
+  color: white;
+}
+
+.blog-title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.recent-posts {
+  border: 3px solid white;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: grid;
+}
+
+.posts-by-date {
+  border: 3px solid white;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.older-posts {
+  border: 3px solid white;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.posts-by-tags {
+  border: 3px solid white;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

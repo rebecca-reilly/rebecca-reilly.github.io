@@ -1,0 +1,18 @@
+<nav class="navbar">
+  <h1><a href="index.html">Rebecca Reilly</a></h1>
+  <div class="nav-block-expanded">
+    <ul>
+      {% for item in site.data.navigation %}
+      <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="nav-block-collapsed">
+    <img src="/assets/images/menu.png" alt="Menu Icon">
+    <ul class="dropdown">
+      {% for item in site.data.navigation %}
+      <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>

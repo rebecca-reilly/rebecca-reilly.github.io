@@ -1,1 +1,17 @@
 <a href="https://www.flaticon.com/free-icons/hamburger" title="hamburger icons">Hamburger icons created by feen - Flaticon</a>
+
+To do:
+-i don't understand dates in metadata? sigh
+-make first post(s)
+
+-learn markdown--use jekyll how to make blog page
+-make post layout, make sure vars defined in _config.yml
+-make placeholder main page
+-make placeholder bio page w attribution
+-make placeholder portfolio page
+-make placeholder blog page
+-make footer
+-find a favicon i guess
+
+bigger to-do:
+-make beefy blog page

@@ -4,32 +4,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="blog.css">
   </head>
   <body>
     <nav class="navbar">
   <h1><a href="/index.html">Rebecca Reilly</a></h1>
   <div class="nav-block-expanded">
     <ul>
-      
+
       <li><a href="/portfolio.html">Portfolio</a></li>
-      
+
       <li><a href="/bio.html">Biography</a></li>
-      
+
       <li><a href="/blog.html">Blog</a></li>
-      
+
     </ul>
   </div>
   <div class="nav-block-collapsed">
     <img src="/assets/images/menu.png" alt="Menu Icon">
     <ul class="dropdown">
-      
+
       <li><a href="/portfolio.html">Portfolio</a></li>
-      
+
       <li><a href="/bio.html">Biography</a></li>
-      
+
       <li><a href="/blog.html">Blog</a></li>
-      
+
     </ul>
   </div>
 </nav>
@@ -37,20 +37,14 @@
     <main>
       <h1>heya</h1>
 <ul>
-  
-    <li>
-      <a href="/updates/2022/07/21/site-style-guide.html">Site Style Guide</a>
-      <p>This is a brief style guide</p>
 
-    </li>
-  
     <li>
       <a href="/updates/2022/07/21/hello-world.html">Hello World</a>
       <p>Hello world! My name is Rebecca. I’m an aspiring software documentation specialist. This blog documents my journey to learn the skills crucial for thriving in the software industry.</p>
 
 
     </li>
-  
+
 </ul>
 
     </main>

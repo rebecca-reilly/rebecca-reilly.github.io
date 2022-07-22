@@ -1,5 +1,5 @@
 <nav class="navbar">
-  <h1><a href="index.html">Rebecca Reilly</a></h1>
+  <h1><a href="{{ "index.html" | relative_url }}">Rebecca Reilly</a></h1>
   <div class="nav-block-expanded">
     <ul>
       {% for item in site.data.navigation %}

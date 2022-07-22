@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Hello World"
+category: updates
+tags:
+---
+
+Hello world! My name is Rebecca. I’m an aspiring software documentation specialist. This blog documents my journey to learn the skills crucial for thriving in the software industry.
+
+You can use this website to view my projects, read my study notes, and follow my updates.
+
+Most pages are under construction, but do be sure to check out the [site style guide](https://rebecca-reilly.github.io\custom-style-guide.md).
+
+# My Prior Experience
+
+My first semester of college, I took an Honors Introduction to Computer Science and studied OCaml through a functional programming lens. Although I now understand why my professor called functional programming the future of application engineering, I really regret not having taken the non-Honors object-oriented Python class next door. Even for a student with a good amount of math knowledge, trying to assimilate basic CS concepts into OCaml’s functional paradigm without any prior coding experience felt a bit like drinking from a firehose. The class unfortunately turned me off of coding for a long time.
+
+Thankfully, the class taught me the basics of GitHub, and I'm familiar enough with various content management systems to have picked up HTML and CSS well. Since deciding to pivot career tracks, I’ve also finished freeCodeCamp’s Responsive Web Design course, which I highly recommend for beginners.
+
+Today marks the date that I’ve gotten my Jekyll site up and running. I’ve chosen to generate a static site for simplicity and security.
+
+# A Bit More About Me
+
+My background is in academia, including undergraduate coursework in history, literature, and several modern and ancient languages. What gets me out of bed in the morning is story design—breaking pieces of media into parts to see how they work. I am in the habit of analyzing everything I watch, play, and read for fat to trim, as well as exceptional moments to go back and examine endlessly.
+
+As much as this practice feeds my own writing, I find the process of studying other people’s work equally rewarding. My positions since graduating—as a staff research associate in MIT’s Literature Section, an SAT/ACT instructor, and an accessibility editor for AI-rendered captions—have only made me more of a geek for good writing at the sentence and document levels.
+
+Although I am primarily interested in software documentation for its financial security—to support my passion of fantasy storytelling—I see considerable overlap in the skills required for articulating software and stories. Software only works when it has proper grammar, and reducing “wordiness” makes it faster and more energy-efficient. I would not be the first to say that code is a little like magic—incantation, to be precise.

@@ -1,13 +1,13 @@
 body {
   font-family: Didot;
-  background-color: #264653;
+  background-color: white;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 .navbar {
-  background-color: #E76F51;
+  background-color: #FF006E;
   position: fixed;
   width: 100vw;
   height: 50px;
@@ -39,7 +39,7 @@ body {
   list-style: none;
   text-align: center;
   display: inline;
-  background-color: #E76F51;
+  background-color: #FF006E;
   padding: 14px 30px;
   width: 100%;
 }
@@ -99,9 +99,7 @@ body {
 /* end body + navbar defaults*/
 
 main {
-  padding-top: 80px;
-  padding-left: 50px;
-  border: 3px solid white;
+  padding: 50px;
   /*
   These parameters are for blog.html, removed for blog-ph.html.
 
@@ -113,12 +111,12 @@ main {
 
 main h1 {
   font-size: 40px;
-  color: white;
+  color: black;
 }
 
 main p {
   font-size: 16px;
-  color: white;
+  color: black;
 }
 
 .blog-title {
